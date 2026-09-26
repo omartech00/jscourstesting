@@ -1,7 +1,9 @@
 const employees = [
-      { id: 1, name: 'John Doe', age: 30, department: 'IT', salary: 50000 },
-      { id: 2, name: 'Alice Smith', age: 28, department: 'HR', salary: 45000 },
-      { id: 3, name: 'Bob Johnson', age: 35, department: 'Finance', salary: 60000 },
+      { id: 1, name: 'John Doe', age: 30, department: 'IT', salary: 50000, specialization: 'JavaScript' },
+      { id: 2, name: 'Alice Smith', age: 28, department: 'HR', salary: 45000, specialization: 'Python' },
+      { id: 3, name: 'Bob Johnson', age: 35, department: 'Finance', salary: 60000, specialization: 'Java' },
+      { id: 4, name: 'Charlie Brown', age: 32, department: 'IT', salary: 55000, specialization: 'JavaScript' },
+      { id: 5, name: 'David Wilson', age: 29, department: 'HR', salary: 48000, specialization: 'JavaScript' }
       //... More employee records can be added here
     ];
 
@@ -32,5 +34,18 @@ function findEmployeeById(employeeId) {
       else{
         document.getElementById('employeesDetails').innerHTML = 'no employee has been found with this ID';
        }
+   }
+
+function findEmployeeBySpecialization(specialization) {
+      const employeesWithSpecialization = employees.filter(employee => employee.specialization === specialization);
+
+      if (employeesWithSpecialization.length > 0) {
+        const displayEmployees = employeesWithSpecialization
+          .map(employee => `<p>${employee.id}: ${employee.name} - ${employee.department} - ${employee.salary} - ${employee.specialization}</p>`)
+          .join('');
+        document.getElementById('employeesDetails').innerHTML = displayEmployees;
+      } else {
+        document.getElementById('employeesDetails').innerHTML = `No employee has been found with specialization: ${specialization}`;
+      }
    }
 
