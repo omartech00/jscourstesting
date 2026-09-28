@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .startMain {
@@ -29,16 +29,16 @@ h1 {
 
 #game-container {
     display: grid;
-    grid-template-columns: repeat(4, 100px);
-    grid-gap: 10px;
+    grid-template-columns: repeat(6, 90px);
+    grid-gap: 8px;
     background-color: #fff;
-    padding: 10px;
+    padding: 8px;
     border-radius: 10px;
 }
 
 .card {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-color: #ddd;
     display: flex;
     justify-content: center;
