@@ -1,0 +1,37 @@
+{
+  "articles": [
+    {
+      "title": "City Launches Green Transport Initiative",
+      "author": "Ava Patel",
+      "date": "2026-09-25",
+      "description": "The city plans to expand bike lanes, add more electric buses, and improve public transport access to reduce traffic congestion and lower pollution levels.",
+      "key_points": [
+        "50 new charging stations for electric vehicles will be installed across the city.",
+        "Free electric shuttle services will be introduced in busy downtown areas.",
+        "The initiative aims to cut carbon emissions by 20% over the next five years."
+      ]
+    },
+    {
+      "title": "Tech Startups Focus on AI Education Programs",
+      "author": "Daniel Kim",
+      "date": "2026-09-23",
+      "description": "Several start-ups are partnering with schools to provide AI literacy courses, helping students build practical skills for the digital future.",
+      "key_points": [
+        "Programs will include coding workshops and AI ethics training for young learners.",
+        "Local colleges will offer internship pathways for students completing the courses.",
+        "The initiative is designed to close the skills gap in emerging technology fields."
+      ]
+    },
+    {
+      "title": "Local Farmers Market Expands to Support Small Businesses",
+      "author": "Mia Rodriguez",
+      "date": "2026-09-22",
+      "description": "The community market is growing to provide more space for local vendors, sustainable products, and neighborhood events that encourage healthy living.",
+      "key_points": [
+        "New stalls will feature handmade goods, organic produce, and artisan foods.",
+        "Weekend workshops will focus on sustainable farming and healthy cooking.",
+        "Organizers expect higher foot traffic and stronger local economic activity."
+      ]
+    }
+  ]
+}
